@@ -1,37 +1,25 @@
 <div class="login-content">
     <div class="login-card">
-        <p>Utilisez votre compte <span class="store">Minecraft</span> pour vous connectez au launcher.</p>
+        <p> Utilice su cuenta <span class="store">Minecraft</span> para conectarse al lanzador.</p>
         <div class="login-type">
             <button class="mojang login-type-btn">Mojang</button>
-            <button class="microsoft login-type-btn">Microsoft</button>
+            <button class="offline login-type-btn">offline</button>
         </div>
         <button class="cancel cancel-login" style="display: none;">Annuler</button>
     </div>
 
-    <div class="login-card-mojang">
+    <div class="login-card-offline" style="display: none;"> <!-- Agregamos una nueva tarjeta para el acceso offline -->
         <div class="card-body">
-            <small class="info-login">&nbsp;</small>
-
-            <div class="login-card-mojang-input">
-                <label>Adresse mail</label>
-                <input type="text" class="Mail login-mojang-input" spellcheck="false">
-                <small class="error-mail">&nbsp;</small>
+            <small class="info-login">Acceso offline</small>
+    
+            <div class="login-card-offline-input">
+                <label>Nombre de usuario</label>
+                <input type="text" class="username login-offline-input" spellcheck="false">
+                <small class="error-username">&nbsp;</small>
             </div>
 
-            <div class="login-card-mojang-input">
+            <div class="login-card-offline">
                 <label>Mot de passe</label>
-                <input type="password" class="Password login-mojang-input" spellcheck="false">
-                <small class="error-password">&nbsp;</small>
+                <input type="password" class="card-body">
+                <small class="info-login">Acceso offline</small>
             </div>
-
-            <div class="login-options">
-                <span class="password-reset">Mot de passe oublié ?</span>
-                <div class="btn-option-login">
-                    <button class="login-btn">Connexion</button>
-                    <button class="cancel cancel-mojang">Annuler</button>
-                </div>
-            </div>
-        </div>
-    </div>
-
-</div>
